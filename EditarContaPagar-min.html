@@ -1,0 +1,93 @@
+<div class="container-fluid">
+	<div class="container"> <!-- container para centralizar -->
+		<div class="formhead">
+			<img align="left" class="img-responsive" src="img/iconcontaapagar.png" id="imgtext">
+			<h2>EDITAR CONTA A PAGAR</h2>
+		</div>
+		<form>
+			<div class="form-group">
+				<tbody>
+			    	<tr>
+			      	<th scope="row"></th>
+			      	<td>
+			      		<div class="input-group">
+							<label for="sindico">Sindico Responsável</label>
+							<input type="text" class="form-control" id="fullname" value="" disabled>
+						</div>
+				  	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="personid">CNPJ Fornecedor </label>
+							<input type="text" class="form-control" id="personid" placeholder="Somente Números">
+						</div>
+			      	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="nomeid">Razao Social</label>
+							<input type="text" class="form-control" id="personid" placeholder="Razaosocial">
+						</div>
+			      	</td>
+			    	</tr>
+			    	<tr>
+			      	<th scope="row"></th>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="vlrTotal">Valor do titulo:</label>
+							<input type="text" class="form-control" id="personid" placeholder="1.000,00">
+						</div>
+			      	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="dataemissao">Data do Emissão</label>
+							<input type="date" class="form-control" id="dtemissao" placeholder="dd/mm/yyyy" data-mask="00/00/0000">
+						</div>
+			      	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="datavencimento">Data de Vencimento</label>
+							<input type="date" class="form-control" id="dtvenc" placeholder="dd/mm/yyyy" data-mask="00/00/0000">
+						</div>
+			      	</td>
+			    	</tr>
+			    	<tr>
+			      		<th scope="row"></th>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="vlrTotal">Valor do titulo:</label>
+							<input type="number" class="form-control" id="personid" placeholder="00,00">
+						</div>
+			      	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="datalancamento">Data de Lançamento</label>
+							<input type="date" class="form-control" id="dtlanc" placeholder="dd/mm/yyyy" data-mask="00/00/0000">
+						</div>
+			      	</td>
+			      	<td>
+			      		<div class="input-group">	
+							<label for="centroCusto">Centro de Custo</label>
+							<select class="form-control" id="centroCusto">
+						        <option>Conta de Luz</option>
+						        <option>Conta de água</option>
+						        <option>Conta do Gás</option>
+						    	<option>Manutenção de Elevador</option>
+						    	<option>Manutenção de Portões</option>
+						    	<option>Manutenção de Área Comum</option>
+						    	<option>Limpeza e Portaria</option>
+					    	</select>	
+						</div>
+			      	</td>
+			    	</tr>
+			  </tbody>	
+		</form> <!-- fecha form -->
+	</div> <!-- fecha div container -->
+</div>
+<br>
+<div class="container">    
+  <center>
+  	<button id="btncadastrar" type="button" class="btn btn-primary">CADASTRAR</button>
+  	<button id="btncancelar" type="button" class="btn btn-danger">CANCELAR</button>
+  </center>
+</div>
+<br><br><br><br>
+<script src="js/acoes.js"></script>

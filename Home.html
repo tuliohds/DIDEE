@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DIDEE - Gestão de Condomínio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/acoes.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <link rel="icon" href="img/favicon.png" />
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/cadastrarusuario.css" rel="stylesheet"> 
+  <link href="css/usuarios.css" rel="stylesheet">
+</head>
+	<body>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div id="main">
+		    	<span style="font-size:30px;cursor:pointer; color: #777" id="openNav">&#9776;</span>
+		    	<div id="mySidenav" class="sidenav">
+				  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+				  <a href="Home.html">HOME</a>
+				  <a href="#" id="count">CONTAS A PAGAR</a>
+				  <a href="#" id="posts">POSTAGENS</a>
+				  <a href="#" id="users">MORADORES</a>
+				  <a href="#" id="fatura">FATURAS</a>
+				  <a href="#" id="votar">VOTAÇÃO</a>
+				  <a href="#" id="aboutus">SOBRE NOS</a>
+				  <a href="Login.html">SAIR</a>
+				  <br>
+				  <hr id="linhamenu">
+				  <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACESSO SÍNDICO<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			        	<li>
+			            	<a href="#" id="addUser">
+			            		<div class="InDropMenu"> > Cadastrar Usuarios</div>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="#" id="newOrder">
+			            		<div class="InDropMenu"> > Cadastrar Contas</div>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="#" id="postMsg">
+			            		<div class="InDropMenu"> > Cadastrar Postagem</div>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="#" id="newfatura">
+			            		<div class="InDropMenu"> > Cadastrar Fatura</div>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="#" id="newSindico">
+			            		<div class="InDropMenu"> > Criar Votação Sindico</div>
+			            	</a>
+			            </li>
+			          </ul>
+			      </li>
+				</div>
+			   <a class="navbar-brand" href="Home.html">DIDDE</a>
+			   <span id="userLoged"></span>
+			</div>
+		     
+		  </div>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"></div>
+		</nav>
+
+		<div class="container-fluid" id="fullbody">
+			<div class="jumbotron" id="lowbody">
+			  <h1 class="display-3">Bem vindo ao DIDDE!</h1>
+			  <p class="lead">O DIDDE te oferece inteligência, segurança e velocidade em sua Gestão de Condomínio.</p>
+			  <hr class="my-4">
+			  <center><p>Vamos Começar?</p></center>
+			  <br>
+  			  <div class="row">
+				<div class='col-sm-4'>
+				  <center>
+					  <a href="#" id="count">
+					  	<img class="img-responsive" src="img/iconcontaapagar.png" id="iconhome">
+					  </a>
+					  <h4>VISUALIZAR CONTAS</h4>
+				  </center>
+				</div>
+				<div class='col-sm-4'>
+				  <center>
+				  	<a id="posts">
+					  <img class="img-responsive" src="img/iconpostagem.png" id="iconhome">
+					</a>
+					<h4>VISUALIZAR POSTAGENS</h4>
+				  </center>
+				</div>
+				<div class='col-sm-4'>
+				  <center>
+				  	<a href="#" id="users">
+					  <img class="img-responsive" src="img/iconquemsomos.png" id="iconhome">
+					</a>
+					<h4>LISTA MORADORES</h4>
+				  </center>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<br><br><br>
+		<footer class="footer navbar-fixed-bottom" id="rodape">
+			<center>
+				<h5>@Copyright - todos os direitos reservados</h5>
+			</center>
+		</footer>
+	</body>
+</html>

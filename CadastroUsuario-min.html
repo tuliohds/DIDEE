@@ -1,0 +1,86 @@
+<div class="container-fluid>
+<!--Container para alterar a cor de todo o conjunto quando o menu for acionado-->
+<div class="container">
+	<div class="formhead">
+		<img align="left" class="img-responsive" src="img/iconpostagem.png" id="imgtext">
+		<h2>CADASTRAR NOVO USUARIO</h2>
+		<h4>Dados para cadastro</h4>
+	</div>
+	<form id="cadatroUser">
+		<div class="form-group">
+			<div class="input-group">
+				<label for="fullname">Nome Completo</label>
+				<input type="text" class="form-control" id="fullname" placeholder="Nome completo">
+			</div>
+			<div class="input-group">	
+				<label for="personid">CPF</label>
+				<input type="id" class="form-control" id="personid" placeholder="CPF">
+			</div>
+			<div class="input-group">	
+				<label for="dateborn">Data de nascimento</label>
+				<input type="date" class="form-control" id="dateborn" placeholder="dd/mm/yyyy">
+			</div>
+			<div class="input-group">	
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="userEmail" placeholder="seuemail@dominio">
+			</div>
+			<div class="input-group" style="padding-top: 10px; ">	
+				<label for="contact">Telefone</label>
+				<input type="text" class="form-control" id="userTel" placeholder="xx xxxxx-xxxx">
+			</div>
+		    <div class="input-group">	
+				<label for="condominio">Selecione o condominio</label>
+				<select class="form-control" id="getCondominio">
+					<option> Selecone seu condomínio </option>
+				</select>	
+			</div>
+	
+		    <div class="input-group">	
+				<label for="apartamento">Selecione Apartamento</label>
+				<select class="form-control" id="getApartamento">
+					<option>Selecione seu Bloco / Apartamento</option>
+				</select>	
+			</div>
+      		<div class="input-group">	
+				<label for="ESindico">É Sindico?</label>
+				<select class="form-control" id="ESindicos" title="SELECIONE...">
+			        <option value="0">NÃO</option>
+			        <option value="1">SIM</option>
+		    	</select>	
+			</div>
+		</div>
+		<br>
+		<hr>
+		<h4>Dados para acesso do novo usuario</h4>
+		<div class="form-group">
+			<div class="input-group">
+				<label for="login">Login</label>
+				<input type="text" class="form-control email" id="userLogin">
+			</div>
+			<br><br>	
+			<div class="input-group">
+				<label for="pwd">Senha</label>
+				<input type="password" class="form-control" id="userPass" >
+			</div>
+			<div class="input-group">
+				<label for="pwd">Confirmar senha</label>
+				<input type="password" class="form-control" id="userPass2" required>
+			</div>
+			<br><br>
+			<div class="alert alert-success" role="alert" id="alertOk" hidden="true">
+			 
+			</div>			
+			<div class="alert alert-warning" role="alert" id="alerta" hidden="true">
+			  A confirmação da senha não confere com a senha digitada!
+			</div>		
+		</div>
+	</form>
+</div>	
+<br>
+<div class="container">    
+	 <center>
+	  <button id="btncadastrar" type="button" class="btn btn-primary">CADASTRAR</button>
+	  <button id="btncancelar" type="button" class="btn btn-danger">CANCELAR</button>
+	 </center>
+</div>	
+<script src="js/acoes.js"></script>		

@@ -1,0 +1,65 @@
+	#rodape{
+	    background-color: #f8f8f8;
+	}
+	
+	#logo{
+		max-width: 30%;
+	}
+
+	#containerlogo{
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+
+	#imgtext{
+	    max-width: 38px;
+	    max-height: 38px;
+	    padding-right: 3px;
+	}
+
+	#btncadastrar{
+		font-size: 18px;	
+	}
+
+	#btncancelar{
+		font-size: 18px;	
+	}
+
+
+/*	.navbar-nav {
+    margin: -3px -93px;
+	}*/
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+    
+.navbar-brand {
+	float: right;
+}
+
+.form-group{
+	display: inline-block;
+	width: 100%;
+	
+}
+
+.input-group{
+	display:  inline-block;
+	margin-right: 10px;
+	padding-top: 5px;
+}
+.form-control {
+	width: 150px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

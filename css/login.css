@@ -1,0 +1,23 @@
+	body, html{
+		height: 100%;
+	    /*background-color: #00251a;*/
+	    background-image: url(../img/fundologin.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#corpologin{
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	height: 100%;
+/*	    background-image: url("../img/login.png");
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-color: #00251a;*/
+	}
+
+	#fundologin{
+		border-radius: 8px;
+		background: rgba(251, 251, 251, 0.8);
+	}
+

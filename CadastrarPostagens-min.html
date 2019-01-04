@@ -1,0 +1,37 @@
+<div class="container-fluid">
+	<div>
+		<img align="left" class="img-responsive" src="img/iconpostagem.png" id="imgtext">
+		<h2>CADASTRAR NOVA POSTAGEM</h2>
+	</div>
+	<form>
+		<div class="form-group">
+			<label for="titulopostagem">Titulo da postagem</label>
+			<input type="titulo" class="form-control" id="titulopostagem" style="width: 100%;">
+		</div>
+		<div class="form-group">
+			<label for="comment">Texto da postagem</label>
+			<textarea class="form-control" rows="4" id="comment" style="width: 100%;"></textarea>
+		</div>
+ 		<div class="input-group">	
+			<label for="condominio">Selecione o condominio</label>
+			<select class="form-control" id="getCondominio">
+				<option> Selecione seu condomínio </option>
+			</select>	
+		</div>
+		<div class="input-group">	
+			<label for="usuario">Quem realiza a postagem</label>
+			<select class="form-control" id="getUsuariopost">
+				<option> Selecione quem deseja realizar a postagem </option>
+			</select>	
+		</div> 
+	</form>
+</div>
+<br>
+<div class="container">    
+  <center>
+  	<button id="btncadastrarpost" type="button" class="btn btn-primary" style="font-size:18px;">CADASTRAR</button>
+  	<button id="btncancelar" type="button" class="btn btn-danger">CANCELAR</button>
+  </center>
+</div>
+<br><br><br><br>
+<script src="js/acoes.js"></script>
