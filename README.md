@@ -18,9 +18,9 @@ Utilizamos tambem o conceito de WebService para realizarmos as ações como serv
 
 ## Autores
 
-* **Túlio Henrique** - *Idealização, criação do FRONT-END e apoio completo na aplicação* - [PurpleBooth](https://github.com/TulioHenrique)
+* **Túlio Henrique** - *Idealização, criação do FRONT-END e apoio completo na aplicação* - [GITHUB](https://github.com/TulioHenrique)
 
-* **Philipe Couto** - *Idealização do projeto e apoio completo na aplicação* - [PurpleBooth](https://github.com/lipecouto)
+* **Philipe Couto** - *Idealização do projeto e apoio completo na aplicação* - [GITHUB](https://github.com/lipecouto)
 
 ## License
 
