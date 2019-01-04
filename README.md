@@ -4,23 +4,23 @@ O DIDDE foi feito para o projeto interdisciplinar do 6º periodo do Curso de Sis
 
 Ele foi criado com o intuito de realizar uma gestão inteligente de condominio e o nome homenagea nosso professor Claudinei, o famoso "didinei"! 
 
-## Acessar sistema
-
-Está disponivel no link abaixo o preview do sistema, basta clicar no botão acessar na tela de Login e sera possivel acessar o sistema.
-
-Link para acesso:
-http://webpuc.gigaup.com.br/Login.html 
-
 ## Tecnologias, Métodos e Conceitos
 
 O DIDDE é uma aplicação WEB.
 
-O sistema utiliza Bootstrap 3.3.7, Javascript e Jquery 3.3.1 em seu Front End, alem da criação da Logo, icones e Favicones de forma original utilizando Coreldraw e Adobe Photoshop.
+O sistema utiliza as tecnologias: 
+	
+- Bootstrap 3.3.7 
+- Javascript 
+- Jquery 3.3.1 
+
+em seu Front End, alem da criação da Logo, icones e Favicones de forma original utilizando Coreldraw e Adobe Photoshop.
+
 Utilizamos tambem o conceito de SPA - Single-Page Application onde objetivamos fornecer uma experiência para o usuário similar à de um aplicativo desktop na WEB.
 
-No Banco de Dados utilizamos o MySql e uma modelagem Orientada a objetos. 
+No Banco de Dados utilizamos o MySql com banco de dados relacional e uma modelagem Orientada a objetos. 
 
-Utilizamos tambem o conceito de WebService, e no Back END utilizamos PHP.
+Utilizamos tambem o conceito de WebService para realizarmos as ações como serviços, e no Back END utilizamos PHP.
 
 ## Autores
 
