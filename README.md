@@ -8,32 +8,20 @@ Ele foi criado com o intuito de realizar uma gestão inteligente de condominio e
 
 O DIDDE é uma aplicação WEB.
 
-O sistema utiliza as tecnologias: 
-	
-- Bootstrap 3.3.7 
-- Javascript 
-- Jquery 3.3.1 
-
-em seu Front End, alem da criação da Logo, icones e Favicones de forma original utilizando Coreldraw e Adobe Photoshop.
+O sistema utiliza as tecnologias Bootstrap 3.3.7, Javascript e Jquery 3.3.1 em seu Front End, além da criação da Logo, icones e Favicones de forma original utilizando Coreldraw e Adobe Photoshop.
 
 Utilizamos tambem o conceito de SPA - Single-Page Application onde objetivamos fornecer uma experiência para o usuário similar à de um aplicativo desktop na WEB.
 
 No Banco de Dados utilizamos o MySql com banco de dados relacional e uma modelagem Orientada a objetos. 
 
-Utilizamos tambem o conceito de WebService para realizarmos as ações como serviços, e no Back END utilizamos PHP.
+Utilizamos tambem o conceito de WebService para realizarmos as ações como serviços, e no BACK-END utilizamos PHP.
 
 ## Autores
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Túlio Henrique** - *Idealização, criação do FRONT-END e apoio completo na aplicação* - [PurpleBooth](https://github.com/TulioHenrique)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Philipe Couto** - *Idealização do projeto e apoio completo na aplicação* - [PurpleBooth](https://github.com/lipecouto)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Este projeto pode ser utilizado por qualquer usuario da rede GITHUB, entretanto solicitamos a devida referência no trabalho.
